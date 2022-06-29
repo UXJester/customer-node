@@ -1,0 +1,20 @@
+{
+  "name": "unqork-customer-node",
+  "version": "0.0.1",
+  "description": "Node script that serves a local customer.css and customer.js file from port 3002",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Unqork",
+    "NodeJs",
+    "Express"
+  ],
+  "author": "Dylan Navajas Gluck",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
